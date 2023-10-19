@@ -1,0 +1,149 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#leftside {
+    float: left;
+    width: 30%;
+    min-height: 1700px;
+    background-color: rgb(77, 192, 154);
+}
+
+#rightside {
+    float: left;
+    width: 70%;
+    min-height: 1700px;
+    background-color: rgb(238, 226, 192);
+    position: relative;
+}
+
+#container {
+    background-color: rgba(255, 255, 255, 0.85);
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 90%;
+    min-width: 800px;
+    min-height: 1400px;
+    border-radius: 0.7em;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+header {
+    background-color: rgba(231, 229, 229, 0.5);
+    /* font-size: 2.75em; */
+    padding: 0.5em;
+    color: rgb(216, 150, 7);
+}
+
+#logo {
+    font-family: 'Sacramento', cursive;
+    color: rgb(216, 150, 7);
+    font-size: 2em;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+.navbar-nav .nav-item a {
+    color: rgb(216, 150, 7);
+    font-family: 'Sacramento', cursive;
+    font-size: larger;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(77, 192, 154);
+
+}
+
+
+main {
+    position: relative;
+}
+
+main h2 {
+    position: absolute;
+    left: 20%;
+    top: 30px;
+    margin: 25px 0 200px 50px;
+    color: rgb(60, 190, 160);
+    text-transform: uppercase;
+}
+
+main #photos img {
+    margin: 0.75em;
+    border: 0.85em solid rgb(255, 255, 255);
+}
+
+section#blogposts {
+    position: absolute;
+    left: 20%;
+    top: 70px;
+    padding: 50px;
+}
+
+main .post {
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid rgba(83, 78, 58, 0.6);
+    border-radius: 0.5em;
+}
+
+main .post-header {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+main .post-header img {
+    width: 60px;
+    height: 50px;
+}
+
+main .post-header span {
+    margin: 5px;
+}
+
+main .author-bio {
+    background-color: rgb(238, 226, 192);
+    width: 250px;
+    padding: 10px;
+    position: absolute;
+    left: 16px;
+    border-radius: 5px;
+}
+
+.author-bio #bio-name {
+    color: white;
+}
+
+.author-bio #foodie-level {
+    color: rgb(60, 190, 160);
+}
+
+.author-bio #bio-body {
+    margin-top: 10px;
+    color: dimgray;
+}
+
+.author-bio #bio-body span {
+    padding-bottom: 5px;
+}
+
+.author-bio #bio-body p {
+    border-top: 1px solid dimgray;
+    padding-top: 5px;
+    margin: 0px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.85em;
+}
